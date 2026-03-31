@@ -1,0 +1,25 @@
+body{margin:0;font-family:Arial;background:#f5f7fa}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+header{background:#111;color:#fff}
+.header-inner{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
+nav a{color:#fff;margin-left:20px;text-decoration:none;cursor:pointer}
+nav a.active{color:#ff6b6b}
+.hero{background:linear-gradient(135deg,#1e3c72,#2a5298);color:#fff;text-align:center;padding:80px 0}
+.float-btn{position:fixed;right:20px;bottom:40px;background:#ff6b6b;color:#fff;padding:15px 20px;border-radius:50px;text-decoration:none}
+
+.section{
+  padding:60px 0;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
